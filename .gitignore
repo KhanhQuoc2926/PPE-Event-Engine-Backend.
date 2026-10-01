@@ -7,3 +7,9 @@ evidence/*.jpg
 outputs/
 logs/*.csv
 weights/*.pt
+# Runtime database
+data/detections.db
+data/detections.db-*
+
+# Weights & Biases logs
+wandb/

@@ -32,7 +32,7 @@ event:
   enabled: true
   mode: majority
   violation_seconds: 2.0
-  recovery_seconds: 1.0
+  recovery_seconds: 0.5
   voting_window_seconds: 2.5
   voting_ratio: 0.70
   min_voting_samples: 5
