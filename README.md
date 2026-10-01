@@ -362,6 +362,11 @@ python run_video.py --source "video\test.mp4" --output "outputs\C_association.mp
 python run_video.py --source "video\test.mp4" --output "outputs\D_full_system.mp4" --log-output "logs\D_full_system.csv" --camera-id ablation-D --profile D_full_system
 ```
 
+Video `test4.mp4`:
+```cmd
+python run_video.py --source "video\test4.mp4" --output "outputs\test4_result.mp4" --log-output "logs\test4_violate.csv" --camera-id ablation-D --profile D_full_system
+```
+
 Profile A, B và C tắt Event Engine nên có thể không tạo danh sách vi phạm. Log
 sự kiện quan trọng nhất nằm ở profile `D_full_system`.
 
@@ -422,3 +427,9 @@ Video `test2.mp4`:
 ```cmd
 python run_video.py --source "video\test2.mp4" --output "outputs\test2_result.mp4" --log-output "logs\test2_violations.csv" --camera-id test2 --profile D_full_system --wandb --wandb-project ppe-test2 --wandb-run-name test2-D-full --wandb-log-every 1
 ```
+
+Video `test4.mp4`:
+
+```cmd
+python run_video.py --source "video\test4.mp4" --output "outputs\test4_result.mp4" --log-output "logs\test4_violations.csv" --camera-id test4 --profile D_full_system --wandb --wandb-project ppe-test4 --wandb-run-name test4-D-full --wandb-log-every 1
+```"# PPE-Event-Engine-Backend." 
